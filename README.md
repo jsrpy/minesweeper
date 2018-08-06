@@ -14,9 +14,9 @@ For example:
 1. In the command line, navigate to the lib directory and run `node`
 2. Run `.load game.js` to load the contents of this file.
 3. Then create a Game instance and run commands like so:
-4. `let game = new Game(3, 3, 3);`
-5. `game.playMove(0, 1);`
-6. `game.playMove(1, 2);`
+4. `let game = new Game(3, 3, 2);`
+5. `game.playMove(0, 0);`
+6. `game.playMove(2, 1);`
 7. When done run `.exit`
 
 ### Features
